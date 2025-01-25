@@ -1,10 +1,14 @@
+import Count from "./components/Count";
+import CountClass from "./components/CountClass";
 
 
 function App() {
 
   return (
     <div className="App">
-      this is app
+      {/* <h1>this is app---</h1> */}
+      <Count />
+      {/* <CountClass /> */}
     </div>
   );
 }
